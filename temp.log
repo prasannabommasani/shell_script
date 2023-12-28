@@ -1,0 +1,12 @@
+total 10
+-rwxr-xr-x 1 ramu2 197609  38 Dec 28 18:21 01-helloworld.sh*
+-rwxr-xr-x 1 ramu2 197609 136 Dec 28 19:06 02-variables.sh*
+-rwxr-xr-x 1 ramu2 197609 102 Dec 28 19:17 03-varialbles.sh*
+-rwxr-xr-x 1 ramu2 197609 130 Dec 28 19:54 04-variables.sh*
+-rwxr-xr-x 1 ramu2 197609 245 Dec 28 21:07 05-variables.sh*
+-rwxr-xr-x 1 ramu2 197609 216 Dec 28 21:22 06-numbers.sh*
+-rwxr-xr-x 1 ramu2 197609 299 Dec 28 21:49 install-mysql.sh*
+-rwxr-xr-x 1 ramu2 197609 265 Dec 28 22:04 07-array.sh*
+-rwxr-xr-x 1 ramu2 197609 249 Dec 28 22:14 08-arguments.sh*
+-rwxr-xr-x 1 ramu2 197609 370 Dec 28 22:24 09-functions.sh*
+-rw-r--r-- 1 ramu2 197609   0 Dec 28 22:31 temp.log
