@@ -11,3 +11,5 @@ read -s USERNAME
 
 echo " please enter passwd"
 read -s PASSWD
+
+echo " usename : $USERNAME and password : $PASSWD "
