@@ -10,7 +10,8 @@ N="\e[0m"
 TIMESTAMP=$(date +%F-%H-%M-%S)
 
 LOGFILE="/tmp/$0-$TIMESTAMP.log"
-echo "scripted started at $TIMESTAMP" &>> LOGFILE
+echo "script started at $TIMESTAMP" &>> LOGFILE
+
 if [ $ID -ne 0 ]
 then
     echo -e " $R ERROR: $N $Y please run script with root user $N"
