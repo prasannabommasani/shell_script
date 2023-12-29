@@ -10,7 +10,8 @@ N="\e[0m"
 TIMESTAMP=$(date +%F-%H-%M-%S)
 
 LOGFILE="/tmp/$0-$TIMESTAMP.log"
-echo "script started at $TIMESTAMP" &>> LOGFILE
+
+echo "script started at $TIMESTAMP" 
 
 if [ $ID -ne 0 ]
 then
