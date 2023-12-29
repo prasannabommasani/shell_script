@@ -18,15 +18,15 @@ else
     echo -e "$G You are the root user $N"
 fi
 
-for PACKAGE in $@
+for package in $@
 do
-    yum list installed $PACKAGE &>> LOGFILE
+    yum list installed $package &>> LOGFILE
     if [$? -ne 0 ]
     then    
-        yum install $PACKAGE -y &>> LOGFILE
+        yum install $package -y &>> LOGFILE
         VALIDATE $? "Installing 0f $package "
     else    
-        echo -e "$R $PACKAGE already installed"
+        echo -e "$R $package already installed"
     fi
 done
 
