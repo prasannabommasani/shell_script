@@ -24,8 +24,8 @@ else
 fi
 }
 
-yum install mysql -y $>> $LOGFILE
+yum install mysql -y &>> $LOGFILE
 VALIDATE $? " installing mysql"
 
-yum install git -y $>> $LOGFILE
+yum install git -y & $LOGFILE
 VALIDATE $? " installing git"
